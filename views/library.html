@@ -1,0 +1,15 @@
+<html>
+	<head>
+	<title>图书馆借阅系统</title></head>
+	<body>
+	<h1>图书馆借阅系统</h1>
+	<?php
+	$dsn = "mysql:host=".$dbhost.";dbname=".$dbName;
+	$pdo = new PDO($dsn,$dbUser,$dbpw);
+	$sql = "select * from books_info";
+	$stmt=$pdo->query($sql);
+	$res = $stmt->fetchAll();
+	var_dump($res);die();
+	?>
+	</body>
+</html>

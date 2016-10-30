@@ -1,0 +1,12 @@
+html,head,body
+{
+	padding:0px;
+	margin:0px;
+}
+html
+{
+	background-image:url('../image/libBg02.jpeg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100%;
+}

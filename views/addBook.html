@@ -1,0 +1,17 @@
+<html>
+<head>
+<meta charset='utf-8' />
+<h1>添加图书</h1></head>
+<body>
+<p>请手动给图书名加上书名号</p>
+<p>图书名称以及ISBN必填</p>
+<form method='post' action='../app/addBook.php' enctype='multipart/form-data'>
+	图书名称：*<input type='text' name='bookName'/><br /><br />
+	图书ISBN：*<input type='text' name='bookISBN'/><br /><br />
+	图书作者：&nbsp;<input type='text' name='bookAuthor'/><br /><br />
+	出版社：&nbsp;&nbsp;<input type='text' name='press'/><br /><br />
+	上传商品详情图片：<input type='file' name='images'/><br /><br />
+	<input type='submit' value='确认添加' name='sub' />
+</body>
+</form>
+</html>

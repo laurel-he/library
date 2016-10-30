@@ -1,0 +1,43 @@
+html,body,head,h1,div
+{
+	padding:0px;
+	margin:0px;
+}
+#head
+{
+	font-size:2em;
+	color:blue;
+	padding-top:60px;
+	text-align:center;
+}
+body{
+	background-image:url('../views/images/bg03.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+#logUp
+{
+	padding-left:500px;
+}
+.logIn
+{
+	width:130px;
+	height:40px;
+}
+#bt1,#bt2
+{
+	width:100px;
+	height:40px;
+}
+#bt1{
+	float:left;
+}
+#footer
+{
+	text-align:center;
+	color:black;
+}
+#cont
+{
+	color:white;
+}

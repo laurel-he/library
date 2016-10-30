@@ -1,0 +1,21 @@
+head,h1,form,p
+{
+	padding: 0px;
+	margin:0px;
+}
+#content
+{
+	margin: 100px auto;
+	margin-left: 500px;
+}
+.logIn
+{
+	float: left;
+	width: 100px;
+}
+#sub
+{
+	display: block;
+	width: 100px;
+	height: 40px;
+}
